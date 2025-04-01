@@ -2,7 +2,7 @@
 import google.generativeai as genai
 import streamlit as st
 
-genai.configure(api_key="AIzaSyASwoRCdWRs4W4P05zmXSHpI-Xwd2fIxkQ")
+genai.configure(api_key="API-key")
 
 @st.cache_data(ttl=600)
 def classify_email(subject):
