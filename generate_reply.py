@@ -2,7 +2,7 @@
 import google.generativeai as genai
 import streamlit as st
 
-genai.configure(api_key="AIzaSyBZtr2XaK-V1M4xxUZiglhLoLKgUo6IMhQ")
+genai.configure(api_key="API-key")
 
 @st.cache_data(ttl=600)
 def generate_ai_response(subject):
