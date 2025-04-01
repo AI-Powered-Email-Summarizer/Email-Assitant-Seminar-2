@@ -2,7 +2,7 @@
 import google.generativeai as genai
 import streamlit as st
 
-genai.configure(api_key="AIzaSyCsnAtPN8ZzxkyCVt9wpEZ36bocgXCvSHc")
+genai.configure(api_key="API-key")
 
 @st.cache_data(ttl=600)
 def summarize_email(subject):
