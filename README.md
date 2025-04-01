@@ -70,18 +70,3 @@ streamlit run main.py
    - **Summarize**: Provides a brief summary.
    - **Auto-reply**: Generates a response using AI.
 3. If replying, review the generated response and click **Send Reply**.
-
----
-
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-
-## 🤝 Contributing
-Feel free to fork the repository and submit pull requests.
-
----
-
-## 📬 Contact
-For any issues or inquiries, reach out via GitHub Issues.
